@@ -21,3 +21,12 @@
   align-items: center;
   
 }
+.logo{
+  width: 160px;
+  cursor: pointer;
+} 
+
+.login{
+  width: 40px;
+  cursor: pointer;
+}
