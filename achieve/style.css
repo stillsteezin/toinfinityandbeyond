@@ -1,0 +1,10 @@
+.heading {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px 10px;
+}
+
+.text {
+    padding-top: 150px;
+    padding-left: 100px !important;
+}
