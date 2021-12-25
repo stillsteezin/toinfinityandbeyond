@@ -68,7 +68,7 @@ nav ul li a{
 }
 
 .content .btn{
-  display: inline-block;
+  display: center;
   background: linear-gradient(45deg, #87adfe, #2F4F4F);
   border-radius: 6px;
   padding: 10px 20px;
