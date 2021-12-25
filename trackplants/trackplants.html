@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title> To Infinity and Beyond</title>
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="../images/logo.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="twp-video-background">
+    <div class="twp-video-foreground">
+      <video autoplay muted loop id="myVideo">
+        <source src="../videos/demo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="twp-video-layer"></div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img class="logo" src="../images/logo.png" alt="" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active home-link" aria-current="page" href="../learnmore.html">Learn More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../trackplants.html">Track Plants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="achieve.html">Achievability</a>
+          </li>
+          <li class="login">
+            <a href="../login/login.html">
+              <button class="btn btn-outline-secondary login" type="submit">Login</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="heading">Test to see if common vegetables can be grown on your plant or space station! </h1>
+        <p> Like humans and animals, plants need water, nutrients, and the right conditions to survive.
+
+        <div class="btn-group">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select the plant</option>
+           <option value="1">Potato</option>
+            <option value="2">Rice</option>
+            <option value="3">Tomato</option>
+            <option value="4">Lettuce</option>
+            <option value="5">Spirulina</option>
+            <option value="6">Spinach</option>
+            <option value="7">Soybeans</option>
+          </select>
+        </div>
+        <div class="btn-group">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Choose lighting type</option>
+            <option value="1">Sunlight</option>
+            <option value="2">LED</option>
+            <option value="3">Fluorescent</option>
+            <option value="4">Other</option>
+          </select>
+        </div>
+
+            <div class="btn-group">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Choose lighting duration</option>
+            <option value="1">0 - 4 hours</option>
+            <option value="2">4 - 8 hours</option>
+            <option value="3">8 - 14 hours</option>
+          </select>
+        </div>
+        
+            <div class="btn-group">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select the soil material</option>
+            <option value="1">Hydroponic</option>
+            <option value="2">Soil</option>
+            <option value="3">Clay Soil</option>
+            <option value="4">Water</option>
+          </select>
+        </div>
+        
+        
+            <div class="btn-group">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Choose radiation levels (in microsieverts)</option>
+            <option value="1">0 - 2.0</option>
+            <option value="2">2.0 - 100</option>
+            <option value="3">100-1000</option>
+            <option value="4">1,100 - 2,000</option>
+          </select>
+        </div>
+        
+  
+        
+      </div>
+      <div class="col-lg-6 text">
+        <textarea rows="10" cols="50" placeholder="Output!!!"></textarea>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
