@@ -1,1 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(videos/trackplants.mp4);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
 
+.navbar-nav {
+  padding-left: 100px;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.login{
+  padding-left: 45rem;
+}  
+
+.content h1{
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #F8F8FF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content p{
+  font-size: 20px;
+  color: #F8F8FF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+  margin-left: 10%;
+  margin-top: 10%;
+  
+  
+}
+
+.content .btn{
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #2F4F4F);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgb(47, 79, 79);
+}  
+
+
+.twmp-video-background{
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+} 
+.twp-video-foreground, .twp-video-background video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.twp-video-foreground{
+  padding-bottom: 56.25%;
+  box-sizing: border-box;
+}
+.twp-video-layer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  box-sizing: border-box;
+} 
