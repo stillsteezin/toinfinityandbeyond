@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     height: 100vh;
     width: 100%;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url(images/background.png);
     margin: 0 px;
 }
@@ -33,7 +33,7 @@ body {
 .content p{
   font-size: 20px;
   color: #F8F8FF;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .content{
