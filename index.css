@@ -21,6 +21,7 @@
 .nav-link {
   margin-left: 50px;
   vertical-align: middle;
+  float: right;
 }
 
 .logo{
