@@ -96,3 +96,12 @@
   opacity: 0.5;
   box-sizing: border-box;
 } 
+
+.heading {
+  color: whitesmoke;
+  padding: 100px 50px;
+}
+
+.textboxt {
+  margin: 100px 100px;
+}
