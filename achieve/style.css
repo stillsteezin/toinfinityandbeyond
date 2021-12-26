@@ -2,15 +2,18 @@
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 50px 10px;
+    padding-bottom: 20px;
 }
 
-.p{
-    color: ghostwhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 50px 10px;
-}    
+.p-text {
+    color: white;
+}
 
 .text {
     padding-top: 150px;
     padding-left: 100px !important;
+}
+
+.submit-button {
+    margin-top: 20px;
 }
