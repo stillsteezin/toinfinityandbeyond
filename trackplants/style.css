@@ -98,10 +98,16 @@
 } 
 
 .heading {
+  text-align: center;
   color: whitesmoke;
-  padding: 100px 50px;
+  padding-top: 50px;
 }
 
 .textboxt {
-  margin: 100px 100px;
+  margin: 50px 50px;
+}
+
+.button-select {
+  padding-top: 50px;
+  margin-left: 400px;
 }
